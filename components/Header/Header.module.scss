@@ -1,0 +1,20 @@
+.header{
+    height: 75px;
+    background-color: rgb(218, 230, 225);
+    padding: 20px;
+}
+
+
+.header ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    padding: 10px;
+}

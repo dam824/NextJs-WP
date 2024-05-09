@@ -1,0 +1,29 @@
+.blog{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    max-width: 900px;
+}
+
+.content p, .content h1{
+    margin: 20px 0;
+}
+
+
+.featuredImg{
+    border: solid 3px red;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    img{
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+ 
